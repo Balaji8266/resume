@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resume</title>
+	<style>
+		*
+		{
+			margin: 0px;
+		}
+		html
+		{
+			font-family: "comic sans ms",sans-serif;
+			text-align: center;
+		}
+		body
+		{
+			background-image: url("{% static 'images/virat.jpeg' %}");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: scroll;
+		}
+		h1
+		{
+			font-size: 50px;
+			margin-top: 10px;
+			border: 2px solid black;
+			background: rgb(6,41,78);
+			color: white;
+		}
+		aside
+		{
+			position: fixed;
+			padding: 10px;
+			margin: 10px;
+			text-align: center;
+			border: 2px solid black;
+			height: 100%;
+			background-color:rgb(20,18,17);
+			color: white;
+		}
+		aside>a 
+		{
+			display: block;
+			text-decoration: none;
+			margin-bottom: 20px;
+			font-size: 20px;
+			color: white;
+		}
+		aside>a:hover
+		{
+			text-decoration: underline;
+		}
+		img 
+		{
+			width: 200px;
+			height: 150px;
+			border: 3px solid white;
+			border-radius: 100%;
+		}
+		img:hover
+		{
+			box-shadow: 0 0 10px white;
+		}
+		h2
+		{
+			color: black;
+			border: 3px solid black;
+			border-radius: 5%;
+			margin-bottom: 30px;
+			background-color:white;
+
+		}
+		section
+		{
+			margin-left: 270px;
+			margin-top: 20px;
+		}
+		#about
+		{
+			color: blue;
+		}
+		#about>h2
+		{
+			background: rgb(6,41,78);
+			width: 300px;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- creating Header -->
+
+	<h1>RESUME</h1>
+	<aside>
+		<h2>Profile</h2>
+		<img src="{% static 'images/virat.jpeg' %}">
+
+		<a href="">About</a>
+		<a href="">personal Details</a>
+		<a href="">Education Details</a>
+		<a href="">Hobbies</a>
+		<a href="">Strength & Weakness</a>
+		<a href="">Declaration</a>
+	</aside>
+
+
+
+	<!-- About -->
+
+	<section id="about">
+		<h2>Self Intoduction</h2>
+		<p>Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore in the IPL and Delhi in domestic cricket.Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore in the IPL and Delhi in domestic cricket.Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore in the IPL and Delhi in domestic cricket.Virat Kohli is an Indian international cricketer and the former captain of the Indian national cricket team. He currently represents Royal Challengers Bangalore in the IPL and Delhi in domestic cricket.</p>
+	</section>
+
+	<!-- Personal Details -->
+
+	<section id="personal-details">
+		
+	</section>
+</body>
+</html>
